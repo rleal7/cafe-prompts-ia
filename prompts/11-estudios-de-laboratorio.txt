@@ -1,0 +1,5 @@
+11 · Mis estudios de laboratorio
+
+Tengo [45 años], soy [hombre o mujer]. Te adjunto mis estudios de laboratorio de [fecha]; ya tapé mi nombre y mis datos personales. Explícame mis resultados en palabras sencillas: qué está bien, qué está fuera de rango y qué significa. Una tabla con estudio, mi resultado, rango normal y qué significa en una línea. Al final, las 5 preguntas que le debo hacer a mi doctor. Claro y tranquilo, sin alarmar. No diagnostiques ni recetes; si algo requiere atención pronto, dímelo directo.
+
+Nota: No sustituye al médico. Tape su nombre, CURP y número de expediente antes de subir el archivo.

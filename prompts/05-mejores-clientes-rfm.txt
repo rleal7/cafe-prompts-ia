@@ -1,0 +1,3 @@
+5 · ¿Quiénes son sus mejores clientes? (análisis RFM)
+
+Soy dueño de [una distribuidora de material eléctrico con 420 clientes]. Te paso las ventas de los últimos 12 meses del ERP: cliente, fecha y monto. Haz un análisis RFM: qué tan reciente compró cada cliente, qué tan frecuente compra y cuánto monto deja. Agrúpalos en segmentos. Tabla de segmentos con número de clientes, % de la venta y una acción para cada uno, más la lista de clientes en riesgo. Práctico, para mi equipo de ventas: nada de estadística.
