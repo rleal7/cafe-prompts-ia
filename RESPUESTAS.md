@@ -210,23 +210,184 @@ Precios con IVA consultados el 1 de noviembre de 2026 en costco.com.mx y liverpo
 
 ## Casos 10 a 15 · Para usar desde mañana
 
-**10 · Carne asada.** Prompt: “Voy a hacer una carne asada en [mi casa en Monterrey] para [12 adultos y 20 niños]. Tengo [$5,000] para todo y queremos comer a las [3:00 pm]. Dime cuántos kilos de qué cortes comprar, qué más necesito y a qué hora prendo el carbón. Una tabla con cantidad, precio aproximado y dónde comprarlo; luego la lista del súper por sección y un horario desde que prendo el carbón hasta que se sirve. Práctico, como un parrillero con experiencia. Si no alcanza el presupuesto, dime qué quitar o qué corte cambiar.”
-Respuesta: unos 8 kg de carne en total (350 g por adulto y 200 g por niño). Por ejemplo, 3.5 kg de arrachera, 2 kg de diezmillo o aguja y 2.5 kg de salchicha y chorizo, que a los niños les gusta más, más tortillas, carbón, cebollitas, frijoles y salsa. Si quieren comer a las 3, el carbón se prende a la 1:45. Los precios cambian por carnicería; pídale que ajuste el corte para que cuadre con los $5,000.
+Respuestas de Claude con datos de ejemplo. En los casos 11, 13 y 15 el prompt pide adjuntar un archivo (estudios, foto o contrato): aquí se usó uno ficticio para mostrar cómo responde. Con su archivo, la respuesta sale sobre sus datos.
 
-**11 · Estudios de laboratorio.** Prompt: “Tengo [45 años], soy [hombre o mujer]. Te adjunto mis estudios de laboratorio de [fecha]; ya tapé mi nombre y mis datos personales. Explícame mis resultados en palabras sencillas: qué está bien, qué está fuera de rango y qué significa. Una tabla con estudio, mi resultado, rango normal y qué significa en una línea. Al final, las 5 preguntas que le debo hacer a mi doctor. Claro y tranquilo, sin alarmar. No diagnostiques ni recetes; si algo requiere atención pronto, dímelo directo.”
-Respuesta: necesita su archivo. Devuelve cada valor fuera de rango explicado en palabras sencillas y una lista de preguntas para el doctor. Tape su nombre antes de subirlo; no sustituye al médico.
+## Caso 10 · Carne asada
 
-**12 · Asesor vocacional.** Prompt: “Mi hijo tiene [16 años] y estudia [preparatoria] en [Monterrey]. Le gusta [lo que usted sepa de él] y no sabe qué estudiar. Entrevístalo con 15 preguntas, de una o dos a la vez, esperando su respuesta. Al final, proponle 3 carreras con futuro frente a la IA. Al terminar, una tabla con las 3 carreras: por qué le queda, cómo la va a cambiar la IA, dónde se estudia en [Monterrey] y un primer paso para probarla este semestre. Háblale de tú, directo y sin sermones. Basa todo en sus respuestas, no en lo que yo quiera.”
-Respuesta: empieza a preguntar de una en una. Por ejemplo: ¿qué materia te hace perder la noción del tiempo?, ¿prefieres trabajar con personas, con datos o con cosas?, ¿qué problema del mundo te gustaría resolver? Al final propone 3 carreras, con el porqué de cada una y cómo la va a cambiar la IA.
+**Prompt.** Voy a hacer una carne asada en [mi casa en Monterrey] para [12 adultos y 20 niños]. Tengo [$5,000] para todo y queremos comer a las [3:00 pm]. Dime cuántos kilos de qué cortes comprar, qué más necesito y a qué hora prendo el carbón. Una tabla con cantidad, precio aproximado y dónde comprarlo; luego la lista del súper por sección y un horario desde que prendo el carbón hasta que se sirve. Práctico, como un parrillero con experiencia. Si no alcanza el presupuesto, dime qué quitar o qué corte cambiar.
 
-**13 · Remodelar su espacio.** Prompt: “Te adjunto una foto de mi [oficina, taller o almacén] de [80 m²]. Ahí trabajan [6 personas] y lo que más se mueve es [el producto que más sale]. Propón un mejor acomodo para que se camine menos y todo se encuentre más rápido, y muéstrame cómo se vería. Una lista de cambios ordenada por impacto, con costo aproximado de cada uno; luego una imagen de cómo quedaría. Práctico y con presupuesto de PyME: primero lo que se hace con lo que ya tengo.”
-Respuesta: necesita la foto. Da el acomodo por escrito y, en ChatGPT o Gemini, genera la imagen de cómo se vería.
+**Respuesta.** Cuenta: 350 g de carne por adulto y 200 g por niño, unos 8 kg en total. Sí alcanza: gasta unos $4,550 y le sobran unos $450 para imprevistos.
 
-**14 · Condición física.** Prompt: “Tengo [45 años], peso [85 kg], no corro desde hace [años] y tengo [3 mañanas de 30 minutos] a la semana. [No tengo lesiones]. Arma un plan de [8 semanas] para correr 5 km sin lastimarme. Una tabla semana por semana con lo que hago cada día; aparte, el calentamiento, una rutina de fuerza de 10 minutos y las señales para parar. Como entrenador realista: progresión lenta y sin presiones. Recuérdame revisarme con mi médico antes de empezar.”
-Respuesta: 3 sesiones de 30 minutos por semana que alternan caminar y trotar, por ejemplo 1 minuto trotando y 2 caminando en la semana 1, hasta trotar 30 minutos seguidos en la semana 8. Incluye calentamiento, estiramiento y un día de fuerza, y la recomendación de revisarse con su médico antes de empezar.
+| Qué | Cantidad | Precio aprox. | Dónde |
+|---|---|---|---|
+| Arrachera | 3 kg | $1,140 | Carnicería de confianza o HEB |
+| Aguja norteña o diezmillo | 2.5 kg | $600 | Carnicería |
+| Salchicha para asar (los niños) | 1.5 kg | $180 | HEB o Soriana |
+| Chorizo | 1 kg | $130 | Carnicería |
+| Tortillas de harina y de maíz | 60 de harina y 2 kg de maíz | $230 | Tortillería |
+| Carbón | 3 bolsas de 4 kg | $330 | HEB o gasolinera |
+| Verdura: cebollitas, chiles, aguacate, tomate, cebolla, cilantro, limón | Para 32 personas | $390 | Mercado o HEB |
+| Frijoles charros | 1 olla grande | $200 | HEB |
+| Queso para asar o panela | 1 kg | $180 | HEB |
+| Botana: papas, totopos, salsa | Para la espera | $250 | HEB |
+| Bebidas: refresco, agua, hielo | 8 refrescos de 3 L, agua y 4 bolsas de hielo | $590 | HEB u Oxxo |
+| Desechables y aluminio | Platos, vasos, servilletas | $330 | HEB |
+| **Total** | | **~$4,550** | |
 
-**15 · Un contrato antes de firmar.** Prompt: “Soy [dueño de una distribuidora de material eléctrico] y me van a hacer firmar este [contrato de arrendamiento del local de la nueva sucursal]. Te lo adjunto; ya quité datos personales y cuentas. Revísalo y dime qué cláusulas me perjudican y qué puedo negociar. Una tabla con cláusula, por qué me perjudica, riesgo (alto, medio o bajo) y una redacción alternativa que pueda proponer. Al final, las 3 que no firmaría así. Como abogado mexicano de mi lado, en lenguaje sencillo. Cita la ley cuando aplique y dime qué debe revisar mi abogado antes de firmar.”
-Respuesta: necesita el contrato. Devuelve las cláusulas de riesgo (penalizaciones, renovación automática, jurisdicción, responsabilidad) con una propuesta de redacción para negociar. Quite datos personales y cuentas, y que lo revise su abogado antes de firmar.
+**Lista del súper por sección.** Carnicería: arrachera, aguja, chorizo. Salchichonería: salchicha, queso. Frutas y verduras: cebollitas, jalapeños, aguacate, tomate, cebolla, cilantro, limones. Abarrotes: frijoles, totopos, papas, salsa, sal de grano. Bebidas: refrescos, agua, hielo. Varios: carbón, encendedor o chimenea para prender, papel aluminio, platos, vasos, servilletas.
+
+**Horario para comer a las 3:00**
+
+| Hora | Qué hacer |
+|---|---|
+| 1:45 | Prenda el carbón. Con chimenea, sin petróleo |
+| 2:15 | Brasas blancas. Salchicha, chorizo, cebollitas y queso |
+| 2:30 | Comen los niños. Entra la aguja |
+| 2:45 | Arrachera, 4 a 5 minutos por lado. Que repose 5 minutos antes de cortarla |
+| 3:00 | Se sirve a los adultos |
+
+**Si no alcanza:** cambie 1 kg de arrachera por aguja y se ahorra unos $140. La cerveza no cabe en el presupuesto: que cada quien traiga la suya.
+
+Precios aproximados en Monterrey, noviembre de 2026; cambian por carnicería.
+
+## Caso 11 · Mis estudios de laboratorio
+
+**Prompt.** Tengo [45 años], soy [hombre o mujer]. Te adjunto mis estudios de laboratorio de [fecha]; ya tapé mi nombre y mis datos personales. Explícame mis resultados en palabras sencillas: qué está bien, qué está fuera de rango y qué significa. Una tabla con estudio, mi resultado, rango normal y qué significa en una línea. Al final, las 5 preguntas que le debo hacer a mi doctor. Claro y tranquilo, sin alarmar. No diagnostiques ni recetes; si algo requiere atención pronto, dímelo directo.
+
+**Respuesta (estudio de ejemplo, ficticio, de un hombre de 45 años).** En general, bien: la sangre, los riñones y la tiroides están en rango. Lo que hay que trabajar son las grasas en la sangre y el azúcar, que salieron un poco arriba. Nada de esto es urgente, pero vale la pena verlo con su médico en las próximas semanas.
+
+| Estudio | Su resultado | Rango normal | Qué significa |
+|---|---|---|---|
+| Glucosa en ayuno | 108 mg/dL | 70–99 | Un poco arriba. Si se repite, su doctor puede pedir hemoglobina glucosilada |
+| Colesterol total | 228 mg/dL | Menos de 200 | Alto |
+| Colesterol LDL ("malo") | 148 mg/dL | Menos de 130 | Alto: es el que se pega en las arterias |
+| Colesterol HDL ("bueno") | 38 mg/dL | Más de 40 | Bajo: conviene subirlo |
+| Triglicéridos | 210 mg/dL | Menos de 150 | Altos. Suelen subir con azúcares, harinas y alcohol |
+| Hemoglobina | 15.2 g/dL | 13.5–17.5 | Bien: no hay anemia |
+| Leucocitos | 6,800 | 4,500–11,000 | Bien: sin señal de infección |
+| Plaquetas | 250,000 | 150,000–450,000 | Bien |
+| Creatinina | 1.0 mg/dL | 0.7–1.3 | Bien: los riñones filtran normal |
+| TGP (ALT), hígado | 52 U/L | 7–41 | Ligeramente alta. Es común con triglicéridos altos |
+| Ácido úrico | 7.4 mg/dL | 3.5–7.2 | Ligeramente alto |
+| TSH, tiroides | 2.1 µUI/mL | 0.4–4.0 | Bien |
+
+Los rangos cambian por laboratorio: use los que vienen en su hoja.
+
+**Las 5 preguntas para su doctor**
+1. ¿Mi glucosa de 108 amerita una hemoglobina glucosilada?
+2. Con mi colesterol y mis triglicéridos, ¿cuál es mi riesgo cardiovascular y en cuánto tiempo repito el estudio?
+3. ¿Qué cambios de comida y ejercicio me recomienda primero, antes de pensar en medicamento?
+4. La TGP un poco alta, ¿necesita un ultrasonido de hígado?
+5. El ácido úrico, ¿qué tengo que cuidar y cuándo lo vuelvo a medir?
+
+No sustituye al médico: es para llegar a la consulta sabiendo qué preguntar.
+
+## Caso 12 · Asesor vocacional para mi hijo
+
+**Prompt.** Mi hijo tiene [16 años] y estudia [preparatoria] en [Monterrey]. Le gusta [lo que usted sepa de él] y no sabe qué estudiar. Entrevístalo con 15 preguntas, de una o dos a la vez, esperando su respuesta. Al final, proponle 3 carreras con futuro frente a la IA. Al terminar, una tabla con las 3 carreras: por qué le queda, cómo la va a cambiar la IA, dónde se estudia en [Monterrey] y un primer paso para probarla este semestre. Háblale de tú, directo y sin sermones. Basa todo en sus respuestas, no en lo que yo quiera.
+
+**Respuesta.** Claude empieza así: "Hola. No hay respuestas buenas ni malas, y nada de esto es un examen. Primera: ¿qué materia o actividad te hace perder la noción del tiempo?" Y así sigue, de una o dos preguntas a la vez. Las 15 preguntas:
+
+1. ¿Qué materia o actividad te hace perder la noción del tiempo?
+2. ¿Qué materia te cuesta más, y es porque no te gusta o porque no le entiendes?
+3. ¿Prefieres trabajar con personas, con datos o con cosas que se arman?
+4. Si tuvieras un sábado libre y $1,000, ¿en qué los gastarías?
+5. ¿Qué te piden tus amigos que les ayudes a hacer?
+6. ¿Te gusta más planear o ejecutar?
+7. ¿Qué problema de tu ciudad o del mundo te gustaría resolver?
+8. ¿Te ves en una oficina, en campo, en un laboratorio o viajando?
+9. ¿Qué video de YouTube o qué tema has investigado por tu cuenta, sin que te lo pidan?
+10. ¿Prefieres un trabajo estable o uno con riesgo y más premio?
+11. ¿Cómo te va cuando tienes que hablar en público o convencer a alguien?
+12. ¿Qué es lo que menos quieres hacer el resto de tu vida?
+13. ¿A quién admiras por su trabajo, y por qué?
+14. Si la IA hiciera la parte aburrida de cualquier trabajo, ¿qué parte te quedarías tú?
+15. ¿Qué carrera te han dicho que estudies, y qué opinas tú?
+
+**Ejemplo de resultado (respuestas de un alumno ficticio):** le gustan las matemáticas y armar cosas, juega videojuegos, es capitán de su equipo de futbol y no le gusta memorizar.
+
+| Carrera | Por qué te queda | Cómo la va a cambiar la IA | Dónde en Monterrey | Primer paso este semestre |
+|---|---|---|---|---|
+| Ingeniería en robótica o mecatrónica | Te gusta armar cosas y las matemáticas te salen | La IA diseña y simula; tú decides, construyes y lo pones a funcionar en el mundo real | Tec de Monterrey, UANL (FIME), UDEM | Un taller de robótica o un kit de Arduino en casa |
+| Ingeniería en ciencia de datos | Te gustan los números y no memorizar | La IA hace los cálculos; vale más quien sabe qué preguntar y cómo explicarlo | Tec de Monterrey, UANL (FCFM) | Un curso gratis de Python y analizar las estadísticas de tu equipo |
+| Ingeniería industrial y de sistemas | Eres capitán: organizas gente y procesos | La IA optimiza rutas e inventarios; tú diriges a las personas que la usan | Tec de Monterrey, UDEM, UANL (FIME) | Visitar una planta o un centro de distribución con alguien que trabaje ahí |
+
+Confirma nombres y planes de estudio en la página de cada universidad, porque cambian.
+
+## Caso 13 · Remodelar su espacio
+
+**Prompt.** Te adjunto una foto de mi [oficina, taller o almacén] de [80 m²]. Ahí trabajan [6 personas] y lo que más se mueve es [el producto que más sale]. Propón un mejor acomodo para que se camine menos y todo se encuentre más rápido, y muéstrame cómo se vería. Una lista de cambios ordenada por impacto, con costo aproximado de cada uno; luego una imagen de cómo quedaría. Práctico y con presupuesto de PyME: primero lo que se hace con lo que ya tengo.
+
+**Respuesta (ejemplo: almacén de una sucursal de 80 m², 6 personas; lo que más sale es cable THW calibre 12, contactos y apagadores).** La regla: lo que más sale va más cerca del mostrador y a la altura de la cintura. Lo que menos sale va al fondo y arriba.
+
+| # | Cambio | Por qué | Costo aprox. |
+|---|---|---|---|
+| 1 | Los 20 productos que más salen, en el primer rack junto al mostrador, a la altura de la cintura | Ahí está la mayoría de los surtidos del día | $0 |
+| 2 | Sacar del piso las cajas que estorban y dejar un pasillo principal de 1.2 m | Se camina en línea recta y nadie se tropieza | $0 |
+| 3 | Lo voluminoso y lento (tubo conduit, charolas, registros) al fondo y en la parte alta | Libera el espacio cercano para lo que sí rota | $0 |
+| 4 | Etiquetar cada rack con una ubicación (por ejemplo A-1-3) y cargarla en el sistema | Cualquiera encuentra todo, no solo el que lleva años | ~$1,500 |
+| 5 | Cinta de piso para marcar pasillos, zona de recibo y zona de entrega | Orden visual y seguridad | ~$800 |
+| 6 | Una mesa de surtido y empaque pegada al mostrador | Se arma el pedido sin ir y venir | ~$4,000 |
+| 7 | Rack de carretes para el cable, junto a la salida, con medidor de metros | Se corta el cable sin cargar carretes | $8,000–$15,000 |
+| 8 | Luz LED en los pasillos | Se lee la etiqueta a la primera | ~$6,000 |
+
+Los primeros tres cambios cuestan $0 y son los que más se notan. Con el 4 y el 5 se gastan unos $2,300.
+
+**La imagen.** Claude da el acomodo por escrito. Para verlo, se pide en ChatGPT o Gemini con la misma foto: "Con esta foto de mi almacén, genera una imagen de cómo se vería con este acomodo: [pegue la lista]. Vista desde la entrada, realista, iluminación blanca."
+
+## Caso 14 · Correr 5 km sin lastimarme
+
+**Prompt.** Tengo [45 años], peso [85 kg], no corro desde hace [años] y tengo [3 mañanas de 30 minutos] a la semana. [No tengo lesiones]. Arma un plan de [8 semanas] para correr 5 km sin lastimarme. Una tabla semana por semana con lo que hago cada día; aparte, el calentamiento, una rutina de fuerza de 10 minutos y las señales para parar. Como entrenador realista: progresión lenta y sin presiones. Recuérdame revisarme con mi médico antes de empezar.
+
+**Respuesta.** Antes de empezar, revísese con su médico: a los 45 años y después de años sin correr, conviene un chequeo y, si él lo indica, una prueba de esfuerzo. El plan es de 3 días por semana, nunca dos días seguidos (por ejemplo, lunes, miércoles y viernes). Cada sesión empieza con 5 minutos de calentamiento caminando y termina con 3 minutos caminando.
+
+| Semana | Lunes | Miércoles | Viernes |
+|---|---|---|---|
+| 1 | 6 × (1 min trote + 2 min caminar) | Igual | Igual |
+| 2 | 5 × (2 min trote + 2 min caminar) | Igual | Igual |
+| 3 | 4 × (3 min trote + 2 min caminar) | Igual | Igual + fuerza |
+| 4 | 3 × (5 min trote + 2 min caminar) | Igual | Igual |
+| 5 | 2 × (8 min trote + 2 min caminar) | Igual | Igual + fuerza |
+| 6 | 2 × (10 min trote + 1 min caminar) | Igual | Igual + fuerza |
+| 7 | 20 min seguidos | 2 × (12 min trote + 1 min caminar) | 22 min seguidos |
+| 8 | 25 min seguidos | 20 min suaves | **5 km** a su ritmo, unos 32 a 38 minutos (ese día reserve 45) |
+
+Si una semana le costó, repítala. No pasa nada.
+
+**Calentamiento (5 minutos):** caminar rápido 3 minutos, círculos de tobillo y cadera, y 10 elevaciones de rodilla por lado.
+
+**Fuerza (10 minutos, 2 vueltas):** 12 sentadillas a una silla, 10 zancadas por pierna, 12 puentes de glúteo, 15 elevaciones de talón y 30 segundos de plancha. Hágala después de correr el viernes o en un día libre.
+
+**Señales para parar y llamar al médico:** dolor u opresión en el pecho, mareo, falta de aire que no le deja hablar ni al bajar el ritmo, o palpitaciones raras. **Señales para parar y descansar:** dolor punzante en rodilla, espinilla o tobillo, o dolor que al día siguiente está peor. Cansancio y algo de dolor muscular sí son normales.
+
+## Caso 15 · Un contrato antes de firmar
+
+**Prompt.** Soy [dueño de una distribuidora de material eléctrico] y me van a hacer firmar este [contrato de arrendamiento del local de la nueva sucursal]. Te lo adjunto; ya quité datos personales y cuentas. Revísalo y dime qué cláusulas me perjudican y qué puedo negociar. Una tabla con cláusula, por qué me perjudica, riesgo (alto, medio o bajo) y una redacción alternativa que pueda proponer. Al final, las 3 que no firmaría así. Como abogado mexicano de mi lado, en lenguaje sencillo. Cita la ley cuando aplique y dime qué debe revisar mi abogado antes de firmar.
+
+**Respuesta (contrato de ejemplo, ficticio: local comercial en Monterrey, 5 años).**
+
+| Cláusula | Por qué le perjudica | Riesgo | Lo que puede proponer |
+|---|---|---|---|
+| Plazo forzoso de 5 años; si sale antes, paga todas las rentas que faltan | Si la sucursal no funciona, paga años de un local vacío | Alto | "Plazo forzoso de 12 meses. Después, el arrendatario puede terminar con aviso de 90 días y una pena de 2 meses de renta." La pena convencional no puede ser mayor que la obligación principal (art. 1843 del Código Civil Federal; el Código Civil de Nuevo León tiene una regla equivalente) |
+| Incremento anual: inflación (INPC) más 5 puntos, o 10%, lo que sea mayor | En 5 años la renta sube casi 50%, aunque la inflación sea baja | Alto | "Incremento anual igual al INPC, con tope de 6%." |
+| Mantenimiento mayor (techo, estructura, instalación eléctrica general) a cargo del arrendatario | Paga reparaciones de un inmueble que no es suyo | Alto | "El arrendador se encarga de la estructura, el techo y las instalaciones generales; el arrendatario, del mantenimiento menor y del desgaste por uso." Por ley, el arrendador debe conservar el local en estado de servir para lo que se rentó |
+| Usted como dueño firma como obligado solidario (aval personal) | Si la empresa no paga, responde con su patrimonio | Alto | "En lugar de aval, una póliza de fianza o un depósito adicional de un mes." |
+| Uso de suelo y licencias a cargo del arrendatario, sin garantía del arrendador | Si el municipio no da la licencia, sigue pagando un local que no puede abrir | Alto | "El arrendador garantiza uso de suelo comercial compatible con la venta de material eléctrico. Si no se obtiene la licencia en 60 días, el arrendatario puede terminar sin pena y se le devuelve el depósito." |
+| Depósito de 3 meses, devolución "a juicio del arrendador" | Puede quedarse con el depósito sin explicar por qué | Medio | "Depósito de 1 mes, devuelto en 30 días contra acta de entrega con fotos, descontando solo daños documentados." |
+| Las mejoras quedan en el inmueble sin pago | Pierde racks, aire acondicionado y la instalación que usted pagó | Medio | "El arrendatario puede retirar las instalaciones removibles; las fijas se le descuentan de la renta o se le pagan a valor en libros." |
+| No puede subarrendar ni ceder, ni a empresas de su grupo | Si reestructura su empresa, el contrato estorba | Bajo | "Se permite ceder a empresas del mismo grupo con aviso por escrito." |
+| Jurisdicción en tribunales de la Ciudad de México | Un pleito le costaría viajes y abogados en otra ciudad | Bajo | "Tribunales de Monterrey, Nuevo León." |
+
+**Las 3 que no firmaría así:** la salida con todas las rentas restantes, el aval personal y la licencia sin garantía de uso de suelo. Juntas pueden costarle más que la sucursal.
+
+**Qué debe revisar su abogado antes de firmar**
+- Que quien firma sea el dueño, o un apoderado con poder vigente.
+- La escritura del local y el predial al corriente.
+- El uso de suelo en el municipio.
+- Si el arrendador es persona física, que su contador confirme las retenciones (10% de ISR y dos terceras partes del IVA) y que el arrendador le dé CFDI.
+- Que el contrato diga qué pasa si el local se inunda, se daña o lo clausuran.
+
+No es asesoría legal: con esta tabla llega con su abogado sabiendo qué negociar.
 
 ## Ejemplo real en Claude · abogado del diablo
 
