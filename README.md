@@ -316,6 +316,16 @@ Lo que circula en redes como /stickynotes, /infograph o /timesquare, escrito en 
 
 Si la imagen es hecha con IA, que no parezca foto real de su almacén o de un cliente, y revise que el texto esté bien escrito.
 
+## Prompts adicionales
+
+Prompts que no fueron parte de la charla, en la carpeta [extras](extras/).
+
+| Prompt | Tema | Archivo |
+|---|---|---|
+| Análisis técnico y fundamental de una acción | Inversión | [analisis-tecnico-fundamental-accion.md](extras/analisis-tecnico-fundamental-accion.md) |
+
+Adjunte la gráfica de la acción y llene los datos de contexto. El resultado es un plan con niveles de entrada, stop y objetivos, no una recomendación de inversión: confírmelo con su asesor.
+
 ## Cuidados
 
 - No pegue RFC, números de cuenta, contraseñas ni datos personales de sus clientes.
